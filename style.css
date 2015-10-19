@@ -1,0 +1,1332 @@
+@charset "UTF-8";
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 48px;
+  font-size: 4.8rem;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto Condensed" sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.tourHeader {
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  font-size: 3rem;
+  padding: 110px 0 0 0;
+  letter-spacing: 5px;
+}
+
+.tourDescrip {
+  font-family: 'Source Sans Pro';
+  text-align: center;
+  color: #b9b9b9;
+  padding: 30px 0 60px 0;
+}
+
+.button1 {
+  background: #4ae5d1;
+  color: white;
+  font-family: "Roboto Condensed" sans-serif;
+  padding: 5px 15px 20px 15px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.button1:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.chevron {
+  color: white;
+  position: absolute;
+  background: #eaeaea;
+  padding: 7px 10px;
+  border: 3px solid white;
+  border-radius: 50%;
+  top: 195px;
+}
+
+.chevron:hover {
+  background: white;
+  color: #eaeaea;
+}
+
+.amazingItaly {
+  background: url("assets/hero.jpg") no-repeat;
+  background-size: cover;
+}
+
+.navContent {
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navContent h3 {
+  padding: 60px 0 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 400;
+}
+
+.logo {
+  position: relative;
+  top: 15px;
+}
+
+.nav1 {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav1 a {
+  color: white;
+  font-family: "Roboto Condensed" sans-serif;
+  padding-left: 25px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.burger {
+  display: none;
+  color: white;
+  margin: 75px 35px 0 0;
+  padding: 4px;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.burger:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.mainHeading {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+}
+
+.mainHeading p {
+  font-family: "Source Sans Pro";
+  padding-bottom: 25px;
+}
+
+.mainHeading h1 {
+  font-size: 6rem;
+  letter-spacing: 8px;
+  font-weight: 400;
+}
+
+.mainHeading .blurb {
+  font-size: 1.4rem;
+  padding: 10px 0 60px 0;
+  line-height: 25px;
+  color: #b9b9b9;
+}
+
+.mainHeading .button1 {
+  margin-bottom: 170px;
+}
+
+.mainHeading .search {
+  position: relative;
+  top: 7px;
+}
+
+.nav2 ul {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav2 li {
+  padding: 20px 22px;
+  color: white;
+  font-family: "Roboto Condensed" sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav2 li:first-of-type {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav2 a {
+  color: white;
+}
+
+.nav2 li:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.nav3 {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.nav3 h5 {
+  text-transform: none;
+  letter-spacing: 1px;
+  padding: 40px 0;
+}
+
+.nav3 p {
+  font-family: "Source Sans Pro";
+  padding-bottom: 20px;
+  margin-right: 20px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.nav3box {
+  margin-bottom: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-right: 20px;
+}
+
+.destination {
+  width: 25%;
+}
+
+.checkIn {
+  width: 12%;
+}
+
+.checkOut {
+  width: 12%;
+}
+
+.kids {
+  width: 8%;
+}
+
+.adults {
+  width: 8%;
+}
+
+.rooms {
+  width: 8%;
+}
+
+.nav3button {
+  width: 15%;
+}
+
+.nav3asset {
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+}
+
+.search {
+  position: relative;
+  top: 7px;
+  padding-top: 5px;
+}
+
+.button2 {
+  padding: 2% 10% 10%;
+  margin: 50% 0 0 7%;
+}
+
+.gallery1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery1:first-of-type {
+  margin-bottom: 2%;
+}
+
+.details {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 0 25px 0;
+}
+
+.details p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  font-family: "Source Sans Pro";
+  letter-spacing: 1px;
+  padding-left: 25px;
+}
+
+.details p span {
+  font-weight: bold;
+}
+
+.detailsLeft {
+  text-align: left;
+  -webkit-box-flex: 1.2;
+  -webkit-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+}
+
+.detailsRight {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.button3 {
+  padding: 18px 20px;
+  margin-top: 5px;
+}
+
+.button3asset {
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.bolivia, .patagonia, .torres {
+  margin-bottom: 2%;
+}
+
+.bolivia {
+  background: url("assets/tour-1.jpg") no-repeat;
+  position: relative;
+}
+
+.patagonia {
+  background: url("assets/tour-2.jpg") no-repeat;
+}
+
+.torres {
+  background: url("assets/tour-3.jpg") no-repeat;
+}
+
+.santorini {
+  background: url("assets/tour-4.jpg") no-repeat;
+}
+
+.turkey {
+  background: url("assets/tour-5.jpg") no-repeat;
+}
+
+.china {
+  background: url("assets/tour-6.jpg") no-repeat;
+}
+
+.country1 {
+  border-radius: 5px;
+  width: 32%;
+  text-align: center;
+  background-size: 100%;
+  background-position: center;
+  color: white;
+}
+
+.country1 h3 {
+  padding: 100px 0 12px 0;
+}
+
+.country1 h4 {
+  padding-top: 10px;
+}
+
+.chevron4, .chevron5 {
+  display: none;
+  top: 45%;
+}
+
+.bavaria {
+  background: url("assets/banner.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 120px;
+}
+
+.bavaria h4 {
+  font-size: 1.4rem;
+  padding: 85px 0 30px 0;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.bavaria h2 {
+  font-size: 3rem;
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.bavaria p {
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 40px;
+  font-family: 'Source Sans Pro';
+}
+
+.bavaria p span {
+  font-weight: 700;
+}
+
+.bavaria i {
+  color: red;
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+  letter-spacing: 7px;
+  color: #757979;
+}
+
+.greece {
+  background: url("assets/greece.jpg") no-repeat;
+}
+
+.china2 {
+  background: url("assets/china.jpg") no-repeat;
+}
+
+.canada {
+  background: url("assets/canada.jpg") no-repeat;
+}
+
+.country2 {
+  background-size: 100%;
+  background-position: center;
+  text-align: left;
+  padding: 25px 0 0 30px;
+  position: relative;
+  width: 32%;
+  border-radius: 5px;
+  color: white;
+}
+
+.country2 h3 {
+  padding-top: 10px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  font-size: 2.4rem;
+}
+
+.tours p {
+  margin-top: 135px;
+  padding: 0 15px;
+  font-family: "Roboto Condensed" sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tours p span {
+  font-size: 1.8rem;
+}
+
+.tours p:first-of-type {
+  padding-left: 0;
+}
+
+.tours p:last-of-type {
+  border-right: none;
+}
+
+.descrip {
+  font-size: 1.2rem;
+  padding-top: 20px;
+  line-height: 25px;
+  padding-right: 25px;
+}
+
+.button4 {
+  padding: 15px 15px;
+  margin: 25px 0 32px 0;
+}
+
+.gallery1:last-of-type {
+  margin-bottom: 0;
+}
+
+.chevron1 {
+  left: -22px;
+}
+
+.chevron2 {
+  right: -22px;
+}
+
+.chevron3 {
+  display: none;
+}
+
+.europeContent {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.europePhotos,
+.europeDetails {
+  width: 48%;
+}
+
+.europePhotos {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.country3 {
+  position: relative;
+  width: 48%;
+  height: 200px;
+  color: white;
+  padding: 125px 0 0 25px;
+}
+
+.country3 h3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+}
+
+.country3 p {
+  font-family: "Source Sans Pro";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding-top: 10px;
+  letter-spacing: 2px;
+}
+
+.country3 span {
+  color: #4ae5d1;
+}
+
+.italyPhotos .country3:nth-of-type(1) {
+  background: url("assets/italy-small.jpg") no-repeat;
+  background-size: 100%;
+  margin-bottom: 3%;
+}
+
+.italyPhotos .country3:nth-of-type(2) {
+  background: url("assets/italy-small4.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.italyPhotos .country3:nth-of-type(3) {
+  background: url("assets/italy-small2.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.italyPhotos .country3:nth-of-type(4) {
+  background: url("assets/italy-small3.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.italyPhotos {
+  margin-bottom: 70px;
+}
+
+.franceDetails {
+  background: url(assets/francemap.jpg) no-repeat;
+  background-position: 50% 0;
+  text-align: right;
+}
+
+.franceDetails .europeCities {
+  width: 100%;
+  padding-left: 105px;
+}
+
+.francePhotos .country3:nth-of-type(1) {
+  background: url("assets/francesmall1.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin-bottom: 3%;
+}
+
+.francePhotos .country3:nth-of-type(2) {
+  background: url("assets/francesmall2.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.francePhotos .country3:nth-of-type(3) {
+  background: url("assets/francesmall3.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.francePhotos .country3:nth-of-type(4) {
+  background: url("assets/francesmall4.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.francePhotos {
+  margin-bottom: 100px;
+}
+
+.europeDetails p {
+  color: #b9b9b9;
+  font-family: "Source Sans Pro";
+  font-size: 1.5rem;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+.europeDetails h2 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 30px 0;
+}
+
+.europeDetails h3 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+}
+
+.europeCities {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #b9b9b9;
+  width: 80%;
+  font-size: 1.3rem;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+.europeCities li::before {
+  content: "•";
+  padding-right: 10px;
+}
+
+.button5 {
+  padding: 15px 20px;
+}
+
+.italyDetails {
+  background: url(assets/italymap.png) no-repeat;
+  background-position: 50% 25%;
+}
+
+.mainFooter {
+  background: #1b1b1b;
+  padding: 70px 0;
+}
+
+.mainFooter h5 {
+  color: white;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.mainFooter ul {
+  color: #b9b9b9;
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro";
+  line-height: 20px;
+}
+
+.footerLogo {
+  width: 20%;
+  color: white;
+  padding-top: 45px;
+}
+
+.footerLogo h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footerBig {
+  width: 35%;
+  padding-left: 3%;
+}
+
+.footerTours {
+  padding-right: 16%;
+}
+
+.twoLists {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.twoLists li:hover {
+  color: #4ae5d1;
+}
+
+.footerPopular {
+  padding-right: 8%;
+}
+
+.footerSocial {
+  width: 18%;
+}
+
+.footerSocial h5 {
+  padding-bottom: 10px;
+  padding-left: 13%;
+}
+
+.socialIcons {
+  width: 155px;
+  margin: 0 auto;
+}
+
+.smallIcon {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro";
+  margin-bottom: 5px;
+  height: 31px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+}
+
+.smallIcon i {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.socialMedia {
+  padding: 8px 30px 0 0;
+}
+
+.number {
+  color: black;
+  background: white;
+  padding: 8px 8px 0 8px;
+  border-radius: 5px;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.twitter {
+  background: #00abf1;
+}
+
+.twitter .socialMedia {
+  padding-right: 45px;
+}
+
+.google {
+  background: #d0422a;
+}
+
+.pinterest {
+  background: #cc2127;
+}
+
+.subscribe {
+  padding-left: 2%;
+  width: 27%;
+}
+
+.subscribe .email {
+  width: 100%;
+  border: 1px solid #b9b9b9;
+  border-radius: 5px;
+  background: #1b1b1b;
+  font-size: 1rem;
+  padding: 12px 60% 12px 5%;
+  background: url("assets/envelope.png") no-repeat;
+  background-position: 95%;
+}
+
+.button6 {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 39%;
+  text-align: center;
+}
+
+.footerLogo, .footerBig, .footerSocial {
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.smallFooter {
+  background: black;
+  padding: 30px 0;
+}
+
+.smallContent {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerNav {
+  color: white;
+  font-family: "Roboto Condensed" sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.footerNav li {
+  padding-right: 20px;
+}
+
+.copyright {
+  color: #b9b9b9;
+  font-family: "Roboto Condensed" sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.copyright span {
+  text-transform: uppercase;
+}
+
+.button6:hover {
+  background: white;
+  color: #4ae5d1;
+}
+
+@media all and (max-width: 1210px) {
+  .wrapper {
+    max-width: 94%;
+  }
+  .europeDetails {
+    width: 40%;
+  }
+  .europePhotos {
+    width: 60%;
+  }
+  .franceDetails {
+    padding-right: 3%;
+  }
+  .italyDetails {
+    padding-left: 3%;
+  }
+}
+
+@media all and (max-width: 1145px) {
+  .nav3 {
+    display: none;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .country1 {
+    width: 49%;
+  }
+  .santorini {
+    margin-bottom: 2%;
+  }
+}
+
+@media all and (max-width: 1083px) {
+  .button2 {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .nav1 {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .mainHeading h1 {
+    font-size: 3.4rem;
+  }
+  .blurb {
+    font-size: 1.2rem;
+  }
+  .gallery2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .country2 {
+    width: 66.6%;
+    margin: 1% auto;
+  }
+  .chevron {
+    display: none;
+  }
+  .footerLogo h3 {
+    text-align: center;
+  }
+  .footerLogo, .footerBig {
+    width: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+  }
+  .footerBig {
+    border-right: none;
+  }
+  .footerSocial h5 {
+    padding-left: 34%;
+  }
+  .footerSocial, .subscribe {
+    padding-top: 20px;
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 962px) {
+  .europeDetails {
+    margin-bottom: 10%;
+  }
+}
+
+@media all and (max-width: 841px) {
+  .country3 h3 {
+    padding-top: 20px;
+  }
+  .footerLogo {
+    padding-top: 17%;
+  }
+  .footerTours {
+    padding-bottom: 5%;
+  }
+  .smallContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footerNav {
+    margin: 0 0 3% 0;
+  }
+}
+
+@media all and (max-width: 725px) {
+  .mainHeading h1 {
+    font-size: 2rem;
+  }
+  .mainHeading .blurb {
+    font-size: 1.2rem;
+  }
+  .italyPhotos, .italyDetails, .franceDetails, .francePhotos {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .franceDetails {
+    margin-bottom: 5%;
+  }
+  .francePhotos {
+    margin-bottom: 5%;
+  }
+}
+
+@media all and (max-width: 633px) {
+  .details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .patagonia, .torres, .santorini, .turkey, .china {
+    display: none;
+  }
+  .bolivia {
+    margin: 0 auto;
+  }
+  .button3 {
+    margin-bottom: 10px;
+  }
+  .country3 h3 {
+    font-size: 1.3rem;
+  }
+  .country3 p {
+    font-size: 1rem;
+  }
+  .country3:first-of-type {
+    margin: 0 auto;
+    width: 85%;
+  }
+  .country3:nth-of-type(2) {
+    display: none;
+  }
+  .country3:nth-of-type(3) {
+    display: none;
+  }
+  .country3:nth-of-type(4) {
+    display: none;
+  }
+  .china2, .canada {
+    display: none;
+  }
+  .chevron1, .chevron3 {
+    display: inline;
+  }
+  .franceContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  .italyDetails, .franceDetails {
+    background-size: 70%;
+  }
+}
+
+@media all and (max-width: 578px) {
+  .nav2 li {
+    font-size: 1rem;
+  }
+  .nav3 p {
+    font-size: 1rem;
+  }
+  .country1 {
+    width: 70%;
+    margin: 2% auto;
+  }
+  .country1 h3 {
+    padding-top: 40px;
+  }
+  .details {
+    padding-top: 30px;
+  }
+  .country2 {
+    width: 70%;
+  }
+  .country3 {
+    margin: 2% auto;
+  }
+}
+
+@media all and (max-width: 488px) {
+  .nav3button {
+    width: 40%;
+  }
+  .footerNav li {
+    font-size: 0.8rem;
+  }
+  .copyright {
+    font-size: 0.6rem;
+  }
+}
+
+@media all and (max-width: 475px) {
+  .tourHeader {
+    font-size: 1.8rem;
+  }
+  .tourDescrip {
+    font-size: 1.2rem;
+  }
+  .bavaria h2 {
+    font-size: 1.8rem;
+  }
+  .nav2 li {
+    font-size: 0.8rem;
+    padding: 10px 15px;
+  }
+}
+
+@media all and (max-width: 445px) {
+  .destination, .checkIn, .checkOut, .kids, .adults, .rooms {
+    width: 85%;
+  }
+  .tours p {
+    font-size: 1rem;
+    margin-top: 50px;
+  }
+  .tours span {
+    font-size: 1.2rem;
+  }
+  .europeCities {
+    width: 100%;
+  }
+  .franceDetails .europeCities {
+    padding-left: 0;
+  }
+  .country3 h3 {
+    font-size: 1rem;
+  }
+  .country3 p {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 418px) {
+  .country2 h3 {
+    font-size: 1.6rem;
+  }
+  .tours span {
+    font-size: 1rem;
+  }
+  .tours p span {
+    font-size: 1.3rem;
+  }
+  .country2 p {
+    font-size: 1rem;
+  }
+  .footerLogo h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media all and (max-width: 367px) {
+  .nav3button {
+    width: 60%;
+  }
+}
+
+@media all and (max-width: 250px) {
+  .nav3button {
+    width: 80%;
+  }
+}
